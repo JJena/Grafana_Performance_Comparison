@@ -2,7 +2,7 @@
 
 This Grafana dashboard gives you a comparison of performance results between any 2 past runs.
 
-- I'm using this backend listener which writes 100% results to InfluxDb: https://github.com/NovatecConsulting/JMeter-InfluxDB-Writer
+- I'm using this backend listener 1.2.2 which writes 100% results to InfluxDb: https://sfakrudeen78.github.io/JMeter-InfluxDB-Writer/
 
 - When you add backend listener into the test plan, specify a unique string to the runId field e.g. timestamp or any unique name because that value unqiuely identifies a test and groups all stats based on this value. e.g. I have used ${__time(yyyy-MM-dd_HHmm,)}
 
